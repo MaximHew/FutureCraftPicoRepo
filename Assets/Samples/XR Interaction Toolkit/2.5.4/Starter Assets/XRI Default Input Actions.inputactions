@@ -2600,6 +2600,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "PICOXR",
+            "id": "06cde8ec-4039-41a3-a4ee-7d35d083a39d",
+            "actions": [
+                {
+                    "name": "IncrementButton",
+                    "type": "Button",
+                    "id": "34141622-8781-4a1e-bc62-d9c94857f5cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Decrement Button",
+                    "type": "Button",
+                    "id": "437b2a2f-7fda-4dd3-8d6f-822b672c594e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ef738cb9-261b-4441-b2b3-f1f6ff4eb658",
+                    "path": "<PXR_Controller>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "IncrementButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d1a185d-3d1f-4d18-ba21-faf6ce276269",
+                    "path": "<PXR_Controller>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Decrement Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

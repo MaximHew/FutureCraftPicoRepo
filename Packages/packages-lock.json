@@ -83,6 +83,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.pico.livepreview": {
+      "version": "file:Pico Live Preview Plugin",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.xr.management": "4.0.0",
+        "com.unity.xr.interaction.toolkit": "2.0.0"
+      }
+    },
     "com.unity.settings-manager": {
       "version": "1.0.3",
       "depth": 2,
@@ -199,7 +208,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:PICO_20Unity_20Integration%20SDK_250",
+      "version": "file:Pico SDK",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
