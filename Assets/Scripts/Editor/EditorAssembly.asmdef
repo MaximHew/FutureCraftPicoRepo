@@ -1,0 +1,21 @@
+{
+    "name": "EditorAssembly",
+    "references": [
+        "GUID:UnityEditor.CoreModule",
+        "GUID:UnityEditor.UI",
+        "GUID:UnityEditor.SceneManagement",
+        "GUID:UnityEditor.UIElementsModule",
+        "GUID:UnityEditor.UIBuilderModule"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
